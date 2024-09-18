@@ -1,0 +1,40 @@
+.p-space-name {
+    font-size: 22px;
+    font-weight: bold;
+}
+.p-space {
+    margin: 30px;
+    text-align: left;
+    margin-left: 40px;
+}
+
+.create-button-space {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.space-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 130px;
+}
+
+.space-title-container {
+    background-color: #2196f3;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+  
+    /* Add elevation effect */
+    transition: box-shadow 0.3s ease;
+    box-shadow: 0 4px 8px rgba(33, 150, 243, 0.3); /* Adjust the values as needed */
+  }
+  
+  .space-title-container:hover {
+    box-shadow: 0 8px 16px rgba(33, 150, 243, 0.5); /* Adjust the values as needed */
+  }
+
+
+

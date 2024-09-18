@@ -1,0 +1,12 @@
+body {
+    margin: 0;
+}
+
+.toolbar-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-link {
+    text-decoration: none;
+}

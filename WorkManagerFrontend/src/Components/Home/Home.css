@@ -1,0 +1,25 @@
+.h1-title {
+    margin-top: 70px;
+    font-size: 50px;
+}
+
+.user-welcome {
+    font-size: 40px;
+    font-weight: normal;
+}
+
+.lead {
+    font-size: 26px;
+
+}
+
+.tab-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.p-tabs {
+    color: black;
+    font-size: large;
+}

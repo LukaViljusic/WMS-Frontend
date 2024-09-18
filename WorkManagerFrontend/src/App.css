@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --body-color: #f5f5f5; /* Light gray background */
+  --sidebar-color: #ffffff; /* White sidebar */
+  --primary-color: #3498db; /* Blue primary color */
+  --primary-color-light: #7eb9e2; /* Lighter blue for accents */
+  --primary-color-dark: #2a77a3; /* Darker blue for highlights */
+  --toggle-color: #cccccc; /* Light gray for toggle elements */
+  --text-color: #333333; /* Dark gray text */
+  --text2-color: #000000; /* Black text */
+  --primary-color-comtainer: #ededed; /* Slightly off-white container background */
+  --danger-color: #c01d1d; /* Red for danger alerts */
+  --success-color: #28a745;
+
+  --tran-02: all 0.2s ease;
+  --tran-03: all 0.3s ease;
+  --tran-04: all 0.4s ease;
+  --tran-05: all 0.5s ease;
+}
+
+body {
+  height: 100vh;
+  background: var(--body-color);
+  transition: var(--tran-04);
+}
+
+
+body.dark {
+  --body-color: #121212; /* Dark background for dark mode */
+  --sidebar-color: #1e1e1e; /* Dark gray for dark mode sidebar */
+  --primary-color: #1976d2; /* Blue primary color in dark mode */
+  --primary-color-light: #3385ff; /* Lighter blue for accents in dark mode */
+  --primary-color-dark: #115293; /* Darker blue for highlights in dark mode */
+  --toggle-color: #ffffff; /* White for toggle elements in dark mode */
+  --text-color: #cccccc; /* Light gray text in dark mode */
+  --text2-color: #ffffff; /* White text in dark mode */
+  --primary-color-comtainer: #1e1e1e;
+  --success-color: #0f9d58;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
